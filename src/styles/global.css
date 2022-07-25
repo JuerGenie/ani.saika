@@ -1,0 +1,21 @@
+html,
+body {
+  @apply w-full h-full;
+}
+
+body {
+  @apply flex flex-col justify-center items-center;
+  @apply bg-slate text-slate-800;
+  @apply text-sm;
+}
+
+* {
+  @apply transition-all duration-200;
+  overflow-anchor: none;
+}
+
+.mdi {
+  @apply aspect-square w-6 min-h-0 inline-block;
+  @apply overflow-hidden;
+  @apply flex justify-center items-center;
+}
